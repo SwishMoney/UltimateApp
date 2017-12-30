@@ -25,12 +25,29 @@
     "schematics": {
       "collection": "@nrwl/schematics",
       "postGenerate": "npm run format",
-      "newProject": ["app", "lib"]
+      "newProject": [
+        "app",
+        "lib"
+      ]
     },
     "styleExt": "scss",
     "component": {}
   },
   "warnings": {
     "typescriptMismatch": false
-  }
+  },
+  "apps": [
+    {
+      "name": "ua-common",
+      "root": "libs/ua-common/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    },
+    {
+      "name": "ua-core",
+      "root": "libs/ua-core/src",
+      "test": "../../../test.js",
+      "appRoot": ""
+    }
+  ]
 }
