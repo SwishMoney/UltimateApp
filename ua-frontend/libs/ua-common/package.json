@@ -1,0 +1,6 @@
+{
+  "name": "@ultimate-app/common",
+  "version": "1.0.0",
+  "main": "index",
+  "typings": "index.d.ts"
+}
